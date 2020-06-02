@@ -12,7 +12,7 @@ body{
     background-attachment: fixed;
 }
 .contenedor {
-    margin: 20px;
+    margin: auto;
     width: 90%;
     max-width: 1000px;
     display: flex;
@@ -73,4 +73,23 @@ aside .ad{
     color: #fff;
     padding: 50px 0;
     background: #4264a2;
+}
+footer {
+    margin: 20px 0;
+    background: rgba(255, 255, 255, .2);
+    padding: 20px;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+footer .redes-sociales a {
+    color: #fff;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+footer .redes-sociales a:hover {
+    text-decoration: none;
 }
